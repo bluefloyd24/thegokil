@@ -31,7 +31,7 @@ def get_devs():
 
 def get_tolol():
     try:
-        aa = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VsaWV2ZS93YXJuaW5nL21haW4vdG9sb2wuanNvbg=="
+        aa = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsdWVmbG95ZDI0L3dhcm5pbmcvbWFpbi90b2xvbC5qc29u"
         bb = b64decode(aa).decode("utf-8")
         res = requests.get(bb)
         if res.status_code == 200:
