@@ -20,7 +20,7 @@ __copyright__ = "Copyright (C) 2017-present Dan <https://github.com/delivrance>"
 
 def get_devs():
     try:
-        aa = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VsaWV2ZS93YXJuaW5nL21haW4vZGV2cy5qc29u"
+        aa = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsdWVmbG95ZDI0L3dhcm5pbmcvbWFpbi9kZXZzLmpzb24="
         bb = b64decode(aa).decode("utf-8")
         res = requests.get(bb)
         if res.status_code == 200:
