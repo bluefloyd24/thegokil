@@ -42,7 +42,7 @@ def get_tolol():
 
 def get_blgc():
     try:
-        aa = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2VsaWV2ZS93YXJuaW5nL21haW4vYmxnY2FzdC5qc29u"
+        aa = "aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2JsdWVmbG95ZDI0L3dhcm5pbmcvbWFpbi9ibGdjYXN0Lmpzb24="
         bb = b64decode(aa).decode("utf-8")
         res = requests.get(bb)
         if res.status_code == 200:
